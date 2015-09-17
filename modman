@@ -2,3 +2,5 @@ app/code/community/Elgentos/CodebaseExceptions app/code/community/Elgentos/Codeb
 app/etc/modules/* app/etc/modules/
 errors/report.php errors/report.php
 lib/Airbrake lib/Airbrake
+
+@shell ln -s $PROJECT/errors/processor.php $MODULE/errors/processor.php
